@@ -1,1 +1,1 @@
-# jamie-s-portfolio
+# Jamie Duersch's Programming Portfolio 2025
