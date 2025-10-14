@@ -4,7 +4,7 @@
 
 ### Calculator (2025)
 
-This is a modern, dark-themed desktop calculator with a clean interface and rounded white buttons. It includes basic operations, advanced functions like square root, exponentiation, π, and the ability to round numbers, along with a clear display and macOS-style window controls. Ideal for quick and advanced calculations in a user-friendly layout.
+This is a modern, dark-themed desktop calculator with a clean interface and rounded white buttons for easy navigation. It includes standard arithmetic operations, advanced functions such as square root, exponentiation (^), pi (π), and rounding (rnd), along with utilities like sign toggle (+/-), delete (del), and clear (C). The large equals button and responsive display make calculations quick and intuitive. Styled like a macOS app, it features familiar window controls and a compact, user-friendly layout—perfect for both basic and advanced math tasks.
 
 ![Running Calculator](https://github.com/9711519-png/jamie-s-portfolio/blob/main/images/Calc.png)
 
