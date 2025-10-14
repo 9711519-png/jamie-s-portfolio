@@ -6,7 +6,7 @@
 
 Detailed description
 
-![Running Calculator]()
+![Running Calculator](https://github.com/9711519-png/jamie-s-portfolio/blob/main/images/Calc.png)
 
 
 *  [Windows EXE]()
