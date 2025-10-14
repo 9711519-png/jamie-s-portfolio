@@ -1,4 +1,4 @@
-# Jamie Duersch's Programming Portfolio 2025
+# Jamie Duersch's Programming Portfolio 10/14/2025
 
 ## Projects for Term 1
 
