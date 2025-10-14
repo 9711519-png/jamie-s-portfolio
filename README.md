@@ -6,8 +6,8 @@
 
 Detailed description
 
-![Running Calculator](<img width="392" height="648" alt="image" src="https://github.com/user-attachments/assets/d5026258-046a-48e4-a533-89741f9c76c7" />
-)
+![Running Calculator](<img width="196" height="324" alt="Screenshot 2025-10-14 at 11 31 46 AM" src="https://github.com/user-attachments/assets/af02ebe2-e6f9-442c-82d7-831de70455b7" />)
+
 
 *  [Windows EXE]()
 *  [Mac OS]()
