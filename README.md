@@ -9,6 +9,6 @@ Detailed description
 ![Running Calculator](https://github.com/9711519-png/jamie-s-portfolio/blob/main/images/Calc.png)
 
 
-*  [Windows EXE](https://github.com/9711519-png/jamie-s-portfolio/blob/main/src/Calculator/windows-amd64.zip)
+*  [Windows EXE]()
 *  [Mac OS](https://github.com/9711519-png/jamie-s-portfolio/blob/main/src/Calculator/macos-aarch64.zip)
 *  [Source Code]()
