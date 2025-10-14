@@ -10,5 +10,5 @@ Detailed description
 
 
 *  [Windows EXE](https://github.com/9711519-png/jamie-s-portfolio/blob/main/src/Calculator/windows-amd64.zip)
-*  [Mac OS]()
+*  [Mac OS](https://github.com/9711519-png/jamie-s-portfolio/blob/main/src/Calculator/macos-aarch64.zip)
 *  [Source Code]()
