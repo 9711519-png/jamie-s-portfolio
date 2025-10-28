@@ -13,4 +13,4 @@ This is a modern, dark-themed desktop calculator with a clean interface and roun
 *  [Windows EXE](https://github.com/9711519-png/jamie-s-portfolio/blob/main/src/Calculator/windows-amd64.zip)
 *  [Mac OS](https://github.com/9711519-png/jamie-s-portfolio/blob/main/src/Calculator/macos-aarch64.zip)
 *  [Source Code](src/Calculator/)
-*   [CalculatorUML](CalculatorUML.jpg)
+*   [CalculatorUML](https://github.com/9711519-png/jamie-s-portfolio/blob/main/images/CalculatorUML2.jpg?raw=true)
