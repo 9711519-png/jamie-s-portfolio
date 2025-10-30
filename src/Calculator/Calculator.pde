@@ -24,8 +24,8 @@ void setup() {
   buttons[3] = new Button(25, 105, 30, 30, "√", #FFFFFF, #AAAAAA);
   buttons[4] = new Button(65, 105, 30, 30, "π", #FFFFFF, #AAAAAA);
   buttons[5] = new Button(105, 105, 30, 30, "del", #FFFFFF, #AAAAAA);
-  buttons[6] = new Button(170, 105, 30, 30, "×", #FFFFFF, #AAAAAA);
-  buttons[7] = new Button(170, 65, 30, 30, "÷", #FFFFFF, #AAAAAA);
+  buttons[6] = new Button(170, 105, 30, 30, "*", #FFFFFF, #AAAAAA);
+  buttons[7] = new Button(170, 65, 30, 30, "/", #FFFFFF, #AAAAAA);
   buttons[8] = new Button(170, 145, 30, 30, "-", #FFFFFF, #AAAAAA);
   buttons[9] = new Button(170, 185, 30, 30, "+", #FFFFFF, #AAAAAA);
   buttons[10] = new Button(105, 265, 30, 30, ".", #FFFFFF, #AAAAAA);
@@ -355,13 +355,13 @@ void mouseReleased() {
       left = false;
       dVal = "0";
     } 
-    else if (buttons[i].over && buttons[i].val.equals("×")) {
-      op = "×";
+    else if (buttons[i].over && buttons[i].val.equals("*")) {
+      op = "*";
       left = false;
       dVal = "0";
     } 
-    else if (buttons[i].over && buttons[i].val.equals("÷")) {
-      op = "÷";
+    else if (buttons[i].over && buttons[i].val.equals("/")) {
+      op = "/";
       left = false;
       dVal = "0";
     } 
