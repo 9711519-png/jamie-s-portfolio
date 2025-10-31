@@ -87,7 +87,7 @@ void keyPressed() {
     performCalculation();
     left = true;
     l = result;
-  } else if (keyCode == 110 || keyCode == 190) {  // Numpad decimal
+  } else if (keyCode == 110) {  // Numpad decimal
     if (!dVal.contains(".")) dVal += ".";
   } else if (keyCode == 80) {   // P key for π
     if (left) l = PI;
