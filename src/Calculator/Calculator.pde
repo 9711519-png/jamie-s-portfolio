@@ -61,16 +61,21 @@ void draw() {
 void keyPressed() {
   println("Key:" + key);
   println("Key Code:" + keyCode);
-
-  if (keyCode == 107) {       // Numpad +
+  if (keyCode == 8 ) {       // Numpad backspace
+    left = false;
+    dVal = "0";
+  } else if (keyCode == 67) {       // Numpad C
+    left = false;
+    dVal = "0";
+  } else if (keyCode == 107) {       // Numpad +
     op = "+";
     left = false;
     dVal = "0";
-  } else if (keyCode == 109) {  // Numpad -
+  } else if (keyCode == 109 || keyCode == 189) {  // Numpad -
     op = "-";
     left = false;
     dVal = "0";
-  } else if (keyCode == 106) {  // Numpad *
+  } else if (keyCode == 106 || keyCode == 88) {  // Numpad *
     op = "*";
     left = false;
     dVal = "0";
@@ -78,11 +83,11 @@ void keyPressed() {
     op = "/";
     left = false;
     dVal = "0";
-  } else if (keyCode == 61 || keyCode == 69) {  // = or Enter
+  } else if (keyCode == 61 || keyCode == 187) {  // = or Enter
     performCalculation();
     left = true;
     l = result;
-  } else if (keyCode == 110) {  // Numpad decimal
+  } else if (keyCode == 110 || keyCode == 190) {  // Numpad decimal
     if (!dVal.contains(".")) dVal += ".";
   } else if (keyCode == 80) {   // P key for π
     if (left) l = PI;
