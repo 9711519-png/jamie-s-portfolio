@@ -62,59 +62,53 @@ void keyPressed() {
   println("Key:" + key);
   println("Key Code:" + keyCode);
 
-  if (keyCode == 107) {
-    dVal = "0";
-    left = false;
+  if (keyCode == 107) {       // Numpad +
     op = "+";
-}   else if (keyCode == 109 || keyCode == 45) {
-    dVal = "0";
     left = false;
+    dVal = "0";
+  } else if (keyCode == 109) {  // Numpad -
     op = "-";
-  }  else if (keyCode == 106 || keyCode == 88) {
-    dVal = "0";
     left = false;
+    dVal = "0";
+  } else if (keyCode == 106) {  // Numpad *
     op = "*";
-  }  else if (keyCode == 111) {
-    dVal = "0";
     left = false;
+    dVal = "0";
+  } else if (keyCode == 111) {  // Numpad /
     op = "/";
-  } else if (keyCode == 67) {
-    dVal = "0";
     left = false;
-    op = "0";
-  } else if (keyCode == 46) {
     dVal = "0";
-    left = false;
-    op = "0";
-  } else if (keyCode == 69) {
-    dVal = "0";
-    left = false;
-    op = "=";
-  } else if (keyCode == 110) {
-    dVal = "0";
-    left = false;
-    op = ".";
-  } else if (keyCode == 80) {
-    dVal = "0";
-    left = false;
-    op = "π";
-  } else if (keyCode == 82) {
-    dVal = "0";
-    left = false;
-    op = "rnd";
-  } else if (keyCode == 33 || keyCode == 38) {
-    dVal = "0";
-    left = false;
+  } else if (keyCode == 61 || keyCode == 69) {  // = or Enter
+    performCalculation();
+    left = true;
+    l = result;
+  } else if (keyCode == 110) {  // Numpad decimal
+    if (!dVal.contains(".")) dVal += ".";
+  } else if (keyCode == 80) {   // P key for π
+    if (left) l = PI;
+    else r = PI;
+    dVal = str(PI);
+  } else if (keyCode == 82) {   // R key for rnd
+    float temp = round(float(dVal));
+    dVal = str(temp);
+    if (left) l = temp;
+    else r = temp;
+  } else if (keyCode == 33 || keyCode == 38) { // Page Up / Up Arrow for ^
     op = "^";
-  } else if (keyCode == 78) {
-    dVal = "0";
     left = false;
-    op = "+/-";
-  } else if (keyCode == 34 ||keyCode == 40) {
     dVal = "0";
-    left = false;
-    op = "√";
-}
+  } else if (keyCode == 78) {   // N key for +/-
+    float temp = float(dVal) * -1;
+    dVal = str(temp);
+    if (left) l = temp;
+    else r = temp;
+  } else if (keyCode == 34 || keyCode == 40) { // Page Down / Down Arrow for √
+    float temp = sqrt(float(dVal));
+    dVal = str(temp);
+    if (left) l = temp;
+    else r = temp;
+  }
+
   else if (keyCode == 48 || keyCode == 96) {
     if (dVal.length()<17) {
         if (left == true) {
