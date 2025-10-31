@@ -61,53 +61,86 @@ void draw() {
 void keyPressed() {
   println("Key:" + key);
   println("Key Code:" + keyCode);
-  if (keyCode == 8 ) {       // Numpad backspace
-    left = false;
+  // ===== CLEAR =====
+  if (key == 'c' || key == 'C') {
+    l = r = result = 0;
     dVal = "0";
-  } else if (keyCode == 67) {       // Numpad C
-    left = false;
-    dVal = "0";
-  } else if (keyCode == 107) {       // Numpad +
+    op = "";
+    left = true;
+  }
+
+  // ===== DELETE / BACKSPACE =====
+  else if (keyCode == BACKSPACE || key == 'd' || key == 'D') {
+    if (dVal.length() > 1) dVal = dVal.substring(0, dVal.length() - 1);
+    else dVal = "0";
+    if (left) l = float(dVal);
+    else r = float(dVal);
+  }
+
+  // ===== OPERATORS =====
+  else if (key == '+') {
     op = "+";
     left = false;
     dVal = "0";
-  } else if (keyCode == 109 || keyCode == 189) {  // Numpad -
+  } 
+  else if (key == '-') {
     op = "-";
     left = false;
     dVal = "0";
-  } else if (keyCode == 106 || keyCode == 88) {  // Numpad *
+  } 
+  else if (key == '*') {
     op = "*";
     left = false;
     dVal = "0";
-  } else if (keyCode == 111) {  // Numpad /
+  } 
+  else if (key == '/') {
     op = "/";
     left = false;
     dVal = "0";
-  } else if (keyCode == 61 || keyCode == 187) {  // = or Enter
+  } 
+  else if (key == '^') {
+    op = "^";
+    left = false;
+    dVal = "0";
+  }
+
+  // ===== EQUAL / ENTER =====
+  else if (key == '=' || keyCode == ENTER || keyCode == RETURN) {
     performCalculation();
-    left = true;
     l = result;
-  } else if (keyCode == 110) {  // Numpad decimal
+    left = true;
+  }
+
+  // ===== DECIMAL POINT =====
+  else if (key == '.') {
     if (!dVal.contains(".")) dVal += ".";
-  } else if (keyCode == 80) {   // P key for π
+  }
+
+  // ===== PI (π) =====
+  else if (key == 'p' || key == 'P') {
     if (left) l = PI;
     else r = PI;
     dVal = str(PI);
-  } else if (keyCode == 82) {   // R key for rnd
+  }
+
+  // ===== ROUND (rnd) =====
+  else if (key == 'r' || key == 'R') {
     float temp = round(float(dVal));
     dVal = str(temp);
     if (left) l = temp;
     else r = temp;
-  } else if (keyCode == 33 || keyCode == 38) { // Page Up / Up Arrow for ^
-    op = "^";
-    left = false;
-    dVal = "0";
-  } else if (keyCode == 78) {   // N key for +/-
+  }
+
+  // ===== NEGATE (+/-) =====
+  else if (key == 'n' || key == 'N') {
     float temp = float(dVal) * -1;
     dVal = str(temp);
     if (left) l = temp;
     else r = temp;
-  } else if (keyCode == 34 || keyCode == 40) { // Page Down / Down Arrow for √
+  }
+
+  // ===== SQUARE ROOT (√) =====
+  else if (key == 's' || key == 'S' || key == 'v' || key == '√') {
     float temp = sqrt(float(dVal));
     dVal = str(temp);
     if (left) l = temp;
@@ -429,4 +462,5 @@ void performCalculation() {
   dVal = str(result);
   l = result;
   left = true;
-}
+}+
+`
