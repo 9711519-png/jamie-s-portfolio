@@ -21,4 +21,10 @@ This is a modern, dark-themed desktop calculator with a clean interface and roun
 
 SkiFree is a classic Windows game released by Microsoft in 1991, where players guide a skier downhill while avoiding trees, rocks, and other obstacles. The skier moves automatically, making quick steering decisions essential as the speed increases. The game is especially remembered for its surprise ending, in which a yeti appears to chase and eventually catch the skier, giving the otherwise simple game an iconic twist.
 
-! [Running Skifree](images/
+! [Running Skifree](images/SkifreeGameplay.png)
+
+
+
+* [Group Repository](https://github.com/pwspew/compProcessing-project-skifree)
+* [Source Code](https://github.com/pwspew/compProcessing-project-skifree.git)
+
