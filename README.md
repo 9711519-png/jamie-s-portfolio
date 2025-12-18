@@ -27,7 +27,8 @@ SkiFree is a classic Windows game released by Microsoft in 1991, where players g
 
 
 
-
+* [Windows EXE](https://github.com/9711519-png/jamie-s-portfolio/blob/main/src/Skifree/windows-amd64.zip)
+* [Mac OS](https://github.com/9711519-png/jamie-s-portfolio/blob/main/src/Skifree/macos-aarch64.zip)
 * [Group Repository](https://github.com/pwspew/compProcessing-project-skifree)
 * [Source Code](https://github.com/pwspew/compProcessing-project-skifree.git)
 
