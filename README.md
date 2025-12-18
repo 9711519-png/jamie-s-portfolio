@@ -23,7 +23,7 @@ SkiFree is a classic Windows game released by Microsoft in 1991, where players g
 
 
 
-![Running Skifree](images/SkifreeGameplay.png)
+![Running Skifree](images/SkiFreeGameplay.png)
 
 
 
