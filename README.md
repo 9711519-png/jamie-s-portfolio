@@ -1,4 +1,4 @@
-# Programming 1 Portfolio | Jamie Duersch | jamieduersch@icloud.com 10/14/2025
+# Programming 1 Portfolio | Jamie Duersch | jamieduersch@icloud.com | 10/14/2025
 
 # Certifications: Computer Programming 1 State Certification
 
