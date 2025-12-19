@@ -51,6 +51,6 @@ This Processing sketch displays a simple level counter with a countdown timer. T
 
 This Processing program creates a simple top-down movement game where the player controls a blue circle using the WASD keys. The player can move around the window but is constrained to stay within the screen and cannot pass through red circular barriers placed around the play area. Each frame, the player’s previous position is saved so that if a collision with a barrier is detected, the movement is undone, creating a solid collision effect. The sketch demonstrates object-oriented programming, keyboard input, collision detection using distance, and basic collision resolution.
 
-!Running CollisonExample](images/CollisionExample.png)
+![Running CollisonExample](images/CollisionExample.png)
 
 *[Source Code](https://github.com/9711519-png/jamie-s-portfolio/tree/main/src/CollisionExample/CollisionExample)
