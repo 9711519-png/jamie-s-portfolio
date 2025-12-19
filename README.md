@@ -21,6 +21,7 @@ This is a modern, dark-themed desktop calculator with a clean interface and roun
 
 ![Running Ballbounce](images/Ballbounce.png)
 
+* [Source Code](src/BallBounce/)
 ## Projects for Term 2
 
 ### Skifree (November-December 2025)
