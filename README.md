@@ -39,3 +39,10 @@ SkiFree is a classic Windows game released by Microsoft in 1991, where players g
 * [Group Repository](https://github.com/pwspew/compProcessing-project-skifree)
 * [Source Code](https://github.com/pwspew/compProcessing-project-skifree.git)
 
+### Level Management
+
+This Processing sketch displays a simple level counter with a countdown timer. The program starts at level 1 and decreases the timeLeft value every frame to simulate seconds passing. When the timer reaches zero, the level increases by one and the timer resets to three seconds. Each frame, the screen is cleared and updated text shows the current level and how many seconds remain until the next level, creating a looping level-up countdown effect.
+
+![Running Skifree](images/LevelManagement.png)
+
+*[Source Code])
