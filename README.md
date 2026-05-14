@@ -39,6 +39,10 @@ SkiFree is a classic Windows game released by Microsoft in 1991, where players g
 * [Group Repository](https://github.com/pwspew/compProcessing-project-skifree)
 * [Source Code](https://github.com/pwspew/compProcessing-project-skifree.git)
 
+### ImpossiSpell
+
+The game uses a word bank to randomly choose words and read them out loud using text-to-speech. The player listens to the word and types what they hear into a text box. There is a repeat button if the player needs to hear the word again. A timer counts down from 10 seconds for each word. As the game continues, the words become more difficult.
+
 ### Level Management
 
 This Processing sketch displays a simple level counter with a countdown timer. The program starts at level 1 and decreases the timeLeft value every frame to simulate seconds passing. When the timer reaches zero, the level increases by one and the timer resets to three seconds. Each frame, the screen is cleared and updated text shows the current level and how many seconds remain until the next level, creating a looping level-up countdown effect.
