@@ -1,7 +1,7 @@
 # Computer Programming 1 and 2 Portfolio | Jamie Duersch | jamieduersch@icloud.com | 10/14/2025
 
 # Certifications: Computer Programming 1 State Certification
-![CompProg1Cert](https://github.com/9711519-png/jamie-s-portfolio/blob/main/images/CompProg1%20Certificate.png)
+![CompProg1Certificate](https://github.com/9711519-png/jamie-s-portfolio/blob/main/images/CompProg1%20Certificate.png)
 ## Projects for Term 1
 
 ### Calculator (October-November 2025)
