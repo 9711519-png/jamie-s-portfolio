@@ -1,5 +1,5 @@
 <!-- HEADER BLOCK -->
-<div style="padding: 20px; background:#F7F7F7; border-radius: 10px;">
+<div style="padding: 20px; background:#E3F2FD; border-radius: 10px;">
   <h1 style="color:#1E88E5; margin-bottom:0;">Jamie Duersch — Computer Programming Portfolio</h1>
   <p style="color:#222; font-size:16px; margin-top:5px;">
     Email: <strong>jamieduersch@icloud.com</strong><br>
