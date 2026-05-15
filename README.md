@@ -1,3 +1,13 @@
+<div style="padding: 20px; background:#F7F7F7; border-radius: 10px;">
+
+<h1 style="color:#1E88E5; margin-bottom:0;">Jamie Duersch — Computer Programming Portfolio</h1>
+<p style="color:#222; font-size:16px; margin-top:5px;">
+Email: <strong>jamieduersch@icloud.com</strong><br>
+Updated: October 14, 2025
+</p>
+
+</div>
+
 # Computer Programming 1 and 2 Portfolio | Jamie Duersch | jamieduersch@icloud.com | 10/14/2025
 
 # Certifications: Computer Programming 1 State Certification
