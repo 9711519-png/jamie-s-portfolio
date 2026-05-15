@@ -2,7 +2,7 @@
 
 # Certifications: Computer Programming 1 State Certification
 
-![CompProg1Certificate](https://github.com/9711519-png/jamie-s-portfolio/blob/main/images/CompProg1%20Certificate.png)
+![CompProg1Certificate](https://github.com/9711519-png/jamie-s-portfolio/blob/main/images/CompProg1Certificate.png)
 
 ## Projects for Term 1
 
